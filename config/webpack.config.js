@@ -24,7 +24,11 @@ const config = {
       },{
         test: /\.css$/,
         use: [
-          MiniCssExtractPlugin.loader,
+          { MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '/public/path/to/',
+            }
+          },
           'css-loader'
         ]
       }
