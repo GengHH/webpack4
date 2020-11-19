@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Element from 'element-ui'
+//import Element from 'element-ui'
  
 Vue.config.productionTip = false; // 这个样式必须引入
-Vue.use(Element); 
+//Vue.use(Element); 
 
 const app = new Vue({
   el:'#app',
