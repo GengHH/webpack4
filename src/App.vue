@@ -1,16 +1,19 @@
 <template>
-  <div>{{ mymsg }}</div>
+  <div>
+    {{ mymsg }}
+    <img src="../public/img/favicon.jpg" alt="未加载" />
+  </div>
 </template>
 
 <script>
 export default {
-  name:'App',
-  data: function () {
-    return{
-      mymsg:'genghonghui'
-    }
-  }
-}
+  name: "App",
+  data: function() {
+    return {
+      mymsg: "genghonghui",
+    };
+  },
+};
 </script>
 
 <style>
